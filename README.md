@@ -8,7 +8,7 @@ Projekt je součástí semestrální práce z předmĞtu na zpracování přiroz
 * `corpus.py` — Načítá textový korpus z daného souboru, předzpracovává ho a rozděluje na tokeny.
 * `filter.py` — Obsahuje hlavní logiku pro filtrování tokenů podle zadaného whitelistu nebo blacklistu.
 * `utils.py` — Obsahuje pomocné funkce pro čtení a zápis souborů, logování a kontrolu typů.
-* `options.txt` — Textový soubor obsahující konfigurační parametry (např. vstupní soubory, typ filtrace, seznam tokenů).
+* `options.txt` — Textový soubor obsahující konfigurační parametry
 
 ## Požadavky
 
@@ -34,7 +34,3 @@ python3 filter.py
 
 Skript načte vstupní soubor, aplikuje zvolenou filtraci a zapíše výsledky do zadaného výstupního souboru.
 
-## Podporované režimy filtrace
-
-* **Whitelist**: ponechá pouze tokeny, které se nacházejí ve `filter_file`.
-* **Blacklist**: odstraní tokeny, které se nacházejí ve `filter_file`.
