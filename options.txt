@@ -1,0 +1,3 @@
+threshold: 0.5
+ifInSpamListAdd: 0.1
+ifInOkListMinus: 0.1
